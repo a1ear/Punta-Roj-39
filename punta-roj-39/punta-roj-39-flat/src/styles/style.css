@@ -317,7 +317,49 @@ img { max-width: 100%; display: block; }
 .contact-hours li:last-child { border-bottom: 0; }
 .contact-hours li span:first-child { color: var(--ink); font-weight: 500; }
 
-/* contact form styles removed */
+/* ── Hours card (replaces contact form) ── */
+.hours-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.hours-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+  gap: 1rem;
+}
+.hours-list li:last-child { border-bottom: none; }
+.hours-list li:nth-child(odd) { background: var(--bg-soft); }
+.hours-list__days { font-weight: 500; color: var(--ink); }
+.hours-list__time { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.hours-list__item--closed .hours-list__time { color: var(--terracotta); font-weight: 500; }
+.hours-note {
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+.hours-note a { color: var(--coffee); text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--ink); color: rgba(255, 255, 255, 0.72); padding: clamp(3rem, 6vw, 5rem) 0 2rem; }
