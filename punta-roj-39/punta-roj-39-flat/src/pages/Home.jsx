@@ -153,26 +153,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── CTA ──────────────────────────────────────────────────── */}
-      <section className="cta" aria-labelledby="cta-title">
+      {/* ── OUR STORY ─────────────────────────────────────────────── */}
+      <section className="cta" aria-labelledby="story-title">
         <div className="container">
           <Reveal className="cta-inner">
             <p className="eyebrow eyebrow--light">Kape Al Vista</p>
-            <h2 id="cta-title" className="cta-title text-balance">
-              Good coffee, great food, and a view worth lingering for.
+            <h2 id="story-title" className="cta-title text-balance">
+              Our Story
             </h2>
             <p className="cta-text text-pretty">
-              Drop by for your morning cup or stay for a slow evening meal.
-              There&apos;s always a seat for you at Punta Roj 39.
+              At Punta Roj 39, we believe great food brings people together.
+              What started as a passion for serving handcrafted coffee has grown
+              into a destination where specialty coffee, gourmet burgers, and
+              authentic Thai cuisine come together under one roof.
             </p>
-            <div className="hero-actions justify-content-center">
-              <Link className="btn btn-light-brand" to="/menu">
-                Explore the Menu
-              </Link>
-              <Link className="btn btn-ghost-light" to="/contact">
-                Get Directions
-              </Link>
-            </div>
+            <p className="cta-text text-pretty">
+              Whether you&apos;re stopping by for your morning coffee, enjoying
+              a hearty burger with friends, or sharing authentic Thai dishes
+              with family, every meal is prepared with care and served in a
+              warm, welcoming atmosphere.
+            </p>
+            <p className="cta-text text-pretty">
+              Located in the heart of Kabankalan City, Punta Roj 39 is more
+              than just a café — it&apos;s a place to slow down, connect, and
+              create lasting memories over great food and coffee.
+            </p>
           </Reveal>
         </div>
       </section>
