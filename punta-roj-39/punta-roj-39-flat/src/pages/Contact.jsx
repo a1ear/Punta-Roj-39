@@ -111,10 +111,55 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* ── MAP — full width ──────────────────────────────────── */}
-          <div className="row mt-5">
-            <div className="col-12">
-              <Reveal className="map-frame map-frame--tall">
+          {/* ── HOURS + MAP ───────────────────────────────────────── */}
+          <div className="row g-5 align-items-stretch mt-1">
+
+            {/* Expanded hours card */}
+            <div className="col-lg-5">
+              <Reveal className="hours-card h-100">
+                <span className="contact-icon" aria-hidden="true">
+                  <Icon name="clock" />
+                </span>
+                <h2 className="section-title">Opening Hours</h2>
+                <p className="section-lead text-pretty">
+                  Walk-ins welcome — no reservations needed. Come as you are.
+                </p>
+
+                <ul className="hours-list">
+                  {site.hours.map((h) => (
+                    <li key={h.days} className={h.time === 'Closed' ? 'hours-list__item--closed' : ''}>
+                      <span className="hours-list__days">{h.days}</span>
+                      <span className="hours-list__time">{h.time}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <p className="hours-note">
+                  Hours may vary on public holidays. Follow us on{' '}
+                  <a
+                    href={site.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Facebook
+                  </a>{' '}
+                  for the latest updates.
+                </p>
+
+                <a
+                  className="btn btn-brand mt-auto"
+                  href={`https://www.google.com/maps/dir/?api=1&destination=39+Rojas+St,+Kabankalan,+Negros+Occidental,+Philippines`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get Directions
+                </a>
+              </Reveal>
+            </div>
+
+            {/* Map */}
+            <div className="col-lg-7">
+              <Reveal className="map-frame map-frame--tall h-100">
                 <iframe
                   src={site.map_embed}
                   title="Map showing Punta Roj 39 in Kabankalan City"
