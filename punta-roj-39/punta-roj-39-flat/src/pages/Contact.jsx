@@ -73,21 +73,20 @@ export default function Contact() {
               </Reveal>
             </div>
 
-            {/* Hours */}
+            {/* Payment Options */}
             <div className="col-md-6 col-lg-3">
               <Reveal tag="article" className="contact-card h-100">
                 <span className="contact-icon" aria-hidden="true">
-                  <Icon name="clock" />
+                  <Icon name="wallet" />
                 </span>
-                <h2 className="contact-card-title">Opening Hours</h2>
-                <ul className="contact-hours">
-                  {site.hours.map((h) => (
-                    <li key={h.days}>
-                      <span>{h.days}</span>
-                      <span>{h.time}</span>
-                    </li>
-                  ))}
-                </ul>
+                <h2 className="contact-card-title">Payment Options</h2>
+                <p className="contact-card-text">
+                  <strong>GCash Accepted</strong>
+                  <br />
+                  <span style={{ fontSize: '0.875rem', opacity: 0.75 }}>
+                    Fast, secure, and convenient cashless payments.
+                  </span>
+                </p>
               </Reveal>
             </div>
 
