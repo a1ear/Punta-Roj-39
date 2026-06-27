@@ -78,6 +78,13 @@ const paths = {
       <path d="m12 5 7 7-7 7" />
     </>
   ),
+  wallet: (
+    <>
+      <rect x="2" y="5" width="20" height="14" rx="2" />
+      <path d="M16 12h.01" />
+      <path d="M2 10h20" />
+    </>
+  ),
 }
 
 export default function Icon({ name, className, style }) {
