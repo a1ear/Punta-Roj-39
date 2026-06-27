@@ -9,7 +9,7 @@ import padThai from '../assets/images/pad-thai.jpg'
 import cafeInterior from '../assets/images/cafe-interior.jpg'
 import spanishLatte from '../assets/images/spanish-latte.jpg'
 import ayasUltimateBurger from '../assets/images/ayas-ultimate-burger.jpg'
-import greenCurry from '../assets/images/green-curry.jpg'
+import mangoStickyRice from '../assets/images/mango-sticky-rice.jpg'
 import cafeExterior from '../assets/images/cafe-exterior.jpg'
 import matchaLatte from '../assets/images/matcha-latte.jpg'
 import thaiBasilChicken from '../assets/images/thai-basil-chicken.jpg'
@@ -21,7 +21,7 @@ export const galleryItems = [
   { src: cafeInterior,       alt: 'Warm minimalist café interior',         cat: 'Interior', size: 'tall' },
   { src: spanishLatte,       alt: 'Iced Spanish latte in a glass',         cat: 'Coffee',   size: '' },
   { src: ayasUltimateBurger, alt: "Aya's Ultimate triple-stack burger",    cat: 'Burgers',  size: 'wide' },
-  { src: greenCurry,         alt: 'Bowl of Thai green curry',              cat: 'Thai',     size: '' },
+  { src: mangoStickyRice,    alt: 'Bowl of Mango Sticky Rice',             cat: 'Desserts',     size: '' },
   { src: cafeExterior,       alt: 'Café exterior at golden hour',          cat: 'Exterior', size: 'tall' },
   { src: matchaLatte,        alt: 'Iced matcha latte with milk swirl',     cat: 'Coffee',   size: '' },
   { src: thaiBasilChicken,   alt: 'Thai basil chicken over rice',          cat: 'Thai',     size: 'wide' },
