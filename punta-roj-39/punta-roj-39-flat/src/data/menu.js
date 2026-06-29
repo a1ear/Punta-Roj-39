@@ -139,7 +139,7 @@ export const menuItems = [
   {
     name: 'Classic Cheeseburger',
     category: 'Burgers',
-    price: '₱115',
+    price: '₱125',
     description:
       'Beef patty, tomatoes, lettuce, caramelized onions, cheese, special sauce.',
     image: classicCheeseburger,
@@ -148,7 +148,7 @@ export const menuItems = [
   {
     name: 'Bacon Cheeseburger',
     category: 'Burgers',
-    price: '₱145',
+    price: '₱155',
     description:
       'Beef patty, bacon, tomatoes, lettuce, caramelized onions, cheese, special sauce.',
     image: null,
@@ -157,7 +157,7 @@ export const menuItems = [
   {
     name: 'Double Cheeseburger',
     category: 'Burgers',
-    price: '₱190',
+    price: '₱200',
     description:
       'Double beef patty, tomatoes, lettuce, caramelized onions, cheese, special sauce.',
     image: null,
@@ -166,7 +166,7 @@ export const menuItems = [
   {
     name: 'Bacon Double Cheeseburger',
     category: 'Burgers',
-    price: '₱220',
+    price: '₱230',
     description:
       'Double beef patty, bacon, tomatoes, lettuce, caramelized onions, cheese, special sauce.',
     image: null,
@@ -175,7 +175,7 @@ export const menuItems = [
   {
     name: "Aya's Ultimate Burger",
     category: 'Burgers',
-    price: '₱280',
+    price: '₱290',
     description:
       'Triple beef patty, triple cheddar cheese, tomatoes, lettuce, caramelized onions, special sauce.',
     image: ayasUltimateBurger,
@@ -184,7 +184,7 @@ export const menuItems = [
   {
     name: 'Aloha Cheeseburger',
     category: 'Burgers',
-    price: '₱135',
+    price: '₱145',
     description:
       'Beef patty, pineapple, tomatoes, lettuce, caramelized onions, cheese, special sauce.',
     image: null,
